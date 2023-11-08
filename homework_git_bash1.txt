@@ -18,16 +18,19 @@ ls -la
 vim linux1.txt
 10) написать туда что-нибудь, любой текст 
 i
-11) сохранить и выйти 
+11) Сохранить и выйти 
 esc
 :wq
 12) Выйти из папки на уровень выше
 cd ..
-11 mv user1/{blocker1.json,blocker2.json} user3
-12 cp user1/{linux1.txt,linux2.txt} user2
-13 find -name linux1.txt
-14 cd user1
-15 tail -f linux1.txt
+13) Переместить любые 2 файла, которые вы создали, в любую другую папку
+mv user1/{blocker1.json,blocker2.json} user3
+14) Скопировать любые 2 файла, которые вы создали, в любую другую папку
+cp user1/{linux1.txt,linux2.txt} user2
+15) Найти файл по имени
+find -name linux1.txt
+16) Просмотреть содержимое в реальном времени
+tail -f linux1.txt
 16 head -n 2 Linux1.txt
 17 tail -n 2 linux1.txt
 18 less linux1.txt
