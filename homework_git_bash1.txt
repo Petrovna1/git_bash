@@ -31,9 +31,11 @@ cp user1/{linux1.txt,linux2.txt} user2
 find -name linux1.txt
 16) Просмотреть содержимое в реальном времени
 tail -f linux1.txt
-16 head -n 2 Linux1.txt
-17 tail -n 2 linux1.txt
-18 less linux1.txt
-19 date
-20 history
-21 history >> history.txt
+17) Вывести несколько первых строк из текстового файла
+head -n 2 Linux1.txt
+18)Вывести несколько последних строк из текстового файла
+tail -n 2 linux1.txt
+19) Просмотреть содержимое длинного файла (команда less) изучите как она работает
+less linux1.txt
+20) Вывести дату и время
+date
